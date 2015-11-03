@@ -1,0 +1,25 @@
+{
+  "name": "require-demo",
+  "version": "0.0.0",
+  "homepage": "https://github.com/giorgiozanoli/require-demo",
+  "authors": [
+    "Giorgio Zanoli <giorgio.zanoli@gmail.com>"
+  ],
+  "description": "Some tests with RequireJS",
+  "main": "index.htm",
+  "moduleType": [
+    "amd"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "requirejs": "~2.1.20",
+    "jquery": "~2.1.4"
+  }
+}
