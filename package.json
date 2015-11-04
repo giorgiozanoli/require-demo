@@ -4,7 +4,7 @@
   "description": "Some tests with RequireJs",
   "main": "index.htm",
   "scripts": {
-    "postinstall": "node_modules/.bin/bower install"
+    "postinstall": "bower install && gulp"
   },
   "repository": {
     "type": "git",
