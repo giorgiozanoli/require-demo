@@ -9,6 +9,13 @@
     </style>
   </head>
   <body>
-    <script data-main="scripts/require.config" src="vendor/requirejs/require.js" charset="utf-8"></script>
+    <!-- build:requirejs -->
+    <script src="../vendor/requirejs/require.js" charset="utf-8"></script>
+    <script type="text/javascript">
+      require(['scripts/require.config'], function(){
+        require(['../main']);
+      });
+    </script>
+    <!-- endbuild -->
   </body>
 </html>

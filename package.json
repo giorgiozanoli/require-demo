@@ -1,0 +1,29 @@
+{
+  "name": "require-demo",
+  "version": "1.0.0",
+  "description": "Some tests with RequireJs",
+  "main": "index.htm",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/giorgiozanoli/require-demo.git"
+  },
+  "keywords": [
+    "AMD"
+  ],
+  "author": "Giorgio Zanoli <giorgio.zanoli@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/giorgiozanoli/require-demo/issues"
+  },
+  "homepage": "https://github.com/giorgiozanoli/require-demo#readme",
+  "devDependencies": {
+    "bower": "^1.6.5",
+    "gulp": "^3.9.0",
+    "gulp-html-replace": "^1.5.4",
+    "gulp-htmlmin": "^1.2.0",
+    "requirejs": "^2.1.20"
+  }
+}
